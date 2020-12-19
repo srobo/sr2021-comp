@@ -1,0 +1,67 @@
+teams:
+    BPV:
+        name: Barton Peveril College
+        rookie: No
+    BRK:
+        name: Brockenhurst College
+        rookie: No
+    CLY:
+        name: The College of Richard Collyer
+        rookie: No
+    DCG:
+        name: Dr Challoner's High School
+        rookie: No
+    ELC:
+        name: Eltham College
+        rookie: No
+    HAB:
+        name: Haberdashers' Aske's Boys' School
+        rookie: No
+    HRS:
+        name: HIlls Road SIxth Form College
+        rookie: No
+    HWM:
+        name: Harris Westminster Sixth Form
+        rookie: Yes
+    KEG:
+        name: King Edward VI Grammar School
+        rookie: No
+    KEV:
+        name: King Edward VI School
+        rookie: No
+    LSS:
+        name: Lawrence Sheriff School
+        rookie: No
+    MAI:
+        name: Gymnasium Markt Indersdorf
+        rookie: No
+    PSC:
+        name: Peter Symonds College
+        rookie: No
+    RGS:
+        name: Royal Grammar School Guildford
+        rookie: No
+    ROH:
+        name: Royal High School
+        rookie: Yes
+    RTS:
+        name: Ruthin School
+        rookie: No
+    SBH:
+        name: Surbiton High
+        rookie: No
+    SOG:
+        name: Saint Olaves Grammar School
+        rookie: Yes
+    SPA:
+        name: St Paul’s College
+        rookie: Yes
+    SWI:
+        name: South Wilts Grammar School
+        rookie: No
+    WER:
+        name: We Robot
+        rookie: Yes
+    WGS:
+        name: Wisbech Grammar School
+        rookie: No

@@ -1,0 +1,84 @@
+match_slot_lengths:
+  pre: 60
+  match: 120
+  post: 30
+  total: 210
+#
+# Various staging related times, in seconds before the actual match start
+staging:
+  # The earliest teams can present themselves for a match
+  opens: 300
+  # The time by which teams _must_ be in staging
+  closes: 120
+  # How long staging is open for; equal to `opens - closes`
+  duration: 180
+  # How long before the start of the match to signal to shepherds they
+  # should start looking for teams
+  signal_shepherds:
+    Shepherd: 180
+  # How long before the start of the match to signal to teams they should
+  # go to staging
+  signal_teams: 180
+#
+timezone: Europe/London
+#
+delays: []
+#
+match_periods:
+  league:
+  - start_time: 2021-07-16 15:10:00+01:00
+    end_time: 2021-07-16 16:00:00+01:00
+    max_end_time: 2021-07-16 16:10:00+01:00
+    description: League 1
+
+#
+  - start_time: 2021-02-06 15:10:00+01:00
+    end_time: 2021-02-06 16:00:00+01:00
+    max_end_time: 2021-02-06 16:10:00+01:00
+    description: League 2
+
+#
+  - start_time: 2021-03-20 15:10:00+01:00
+    end_time: 2021-03-20 16:20:00+01:00
+    max_end_time: 2021-03-20 16:40:00+01:00
+    description: League 3
+
+#
+  - start_time: 2021-04-24 15:10:00+01:00
+    end_time: 2021-04-24 16:20:00+01:00
+    max_end_time: 2021-04-24 16:40:00+01:00
+    description: League 4
+
+#
+  knockout:
+  - start_time: 2021-05-01 15:10:00+01:00
+    end_time: 2021-05-01 16:10:00+01:00
+    description: Knockouts
+
+# Scheduled time for the finals tie-breaker, if any
+# This is an absolute value and ignores the delay values
+tiebreaker: 2021-05-01 15:53:00+01:00
+
+league:
+  # Extra spacing before an arbitrary set of matches
+  # This value is ignored for matches which occur at the start of a period
+  # since no additional time is needed there.
+  extra_spacing:
+    # TODO: update these spacings for SR2021
+    # Ensure that each of these matches is at the start of a period
+  - match_numbers: 12,24,36
+    duration: 3600       # seconds
+    # Half time break to discuss physical robots
+  - match_numbers: 33,42
+    duration: 600       # seconds
+#
+knockout:
+  round_spacing: 300 # Delay between knockout rounds
+  final_delay: 300   # Extra delay before the finals
+#
+# Everyone goes through to the knockouts (arity = ?)
+#
+  single_arena:
+    rounds: 5        # We only have one arena, so this is all the rounds
+    arenas:
+    - Simulator

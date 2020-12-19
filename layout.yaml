@@ -1,0 +1,26 @@
+teams:
+  - name: the-venue
+    display_name: The Venue
+    teams:
+      - BPV
+      - BRK
+      - CLY
+      - DCG
+      - ELC
+      - HAB
+      - HRS
+      - HWM
+      - KEG
+      - KEV
+      - LSS
+      - MAI
+      - PSC
+      - RGS
+      - ROH
+      - RTS
+      - SBH
+      - SOG
+      - SPA
+      - SWI
+      - WER
+      - WGS
