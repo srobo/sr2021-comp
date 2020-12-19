@@ -131,6 +131,34 @@ class ScorerTests(unittest.TestCase):
             }
         ])
 
+    def test_both_teams_claim_both_territories(self):
+        # But only one of them holds both at the same time
+        self.assertScores({
+            'ABC': 2,
+            'DEF': 4,
+        }, [
+            {
+                'zone': 0,
+                'station_code': 'PN',
+                'time': 4
+            },
+            {
+                'zone': 1,
+                'station_code': 'PN',
+                'time': 5
+            },
+            {
+                'zone': 1,
+                'station_code': 'EY',
+                'time': 6
+            },
+            {
+                'zone': 0,
+                'station_code': 'EY',
+                'time': 7
+            }
+        ])
+
 
 if __name__ == '__main__':
     unittest.main()
