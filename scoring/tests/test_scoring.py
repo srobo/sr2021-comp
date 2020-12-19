@@ -10,7 +10,7 @@ import sys
 ROOT = pathlib.Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 
-from score import Scorer, InvalidScoresheetException
+from score import Scorer
 
 
 class ScorerTests(unittest.TestCase):
@@ -42,8 +42,6 @@ class ScorerTests(unittest.TestCase):
 
         scorer = Scorer(teams_data, arena_data)
         scores = scorer.calculate_scores()
-
-        scorer.validate(extra_data)
 
         self.assertEqual(
             teams_data.keys(),
