@@ -5,8 +5,11 @@ teams:
     BRK:
         name: Brockenhurst College
         rookie: No
-    CLY:
-        name: The College of Richard Collyer
+    CLY1:
+        name: The College of Richard Collyer (Team 1)
+        rookie: No
+    CLY2:
+        name: The College of Richard Collyer (Team 2)
         rookie: No
     DCG:
         name: Dr Challoner's High School
@@ -14,14 +17,32 @@ teams:
     ELC:
         name: Eltham College
         rookie: No
-    HAB:
-        name: Haberdashers' Aske's Boys' School
+    HAB1:
+        name: Haberdashers' Aske's Boys' School (Team 1)
         rookie: No
-    HRS:
-        name: HIlls Road SIxth Form College
+    HAB2:
+        name: Haberdashers' Aske's Boys' School (Team 2)
         rookie: No
-    HWM:
-        name: Harris Westminster Sixth Form
+    HRS1:
+        name: HIlls Road SIxth Form College (Team 1)
+        rookie: No
+    HRS2:
+        name: HIlls Road SIxth Form College (Team 2)
+        rookie: No
+    HRS3:
+        name: HIlls Road SIxth Form College (Team 3)
+        rookie: No
+    HRS4:
+        name: HIlls Road SIxth Form College (Team 4)
+        rookie: No
+    HWM1:
+        name: Harris Westminster Sixth Form (Team 1)
+        rookie: Yes
+    HWM2:
+        name: Harris Westminster Sixth Form (Team 2)
+        rookie: Yes
+    HWM3:
+        name: Harris Westminster Sixth Form (Team 3)
         rookie: Yes
     KEG:
         name: King Edward VI Grammar School
@@ -35,11 +56,17 @@ teams:
     MAI:
         name: Gymnasium Markt Indersdorf
         rookie: No
-    PSC:
-        name: Peter Symonds College
+    PSC1:
+        name: Peter Symonds College (Team 1)
         rookie: No
-    RGS:
-        name: Royal Grammar School Guildford
+    PSC2:
+        name: Peter Symonds College (Team 2)
+        rookie: No
+    RGS1:
+        name: Royal Grammar School Guildford (Team 1)
+        rookie: No
+    RGS2:
+        name: Royal Grammar School Guildford (Team 2)
         rookie: No
     ROH:
         name: Royal High School
@@ -50,8 +77,11 @@ teams:
     SBH:
         name: Surbiton High
         rookie: No
-    SOG:
-        name: Saint Olaves Grammar School
+    SOG1:
+        name: Saint Olaves Grammar School (Team 1)
+        rookie: Yes
+    SOG2:
+        name: Saint Olaves Grammar School (Team 2)
         rookie: Yes
     SPA:
         name: St Paul’s College
