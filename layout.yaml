@@ -4,22 +4,32 @@ teams:
     teams:
       - BPV
       - BRK
-      - CLY
+      - CLY1
+      - CLY2
       - DCG
       - ELC
-      - HAB
-      - HRS
-      - HWM
+      - HAB1
+      - HAB2
+      - HRS1
+      - HRS2
+      - HRS3
+      - HRS4
+      - HWM1
+      - HWM2
+      - HWM3
       - KEG
       - KEV
       - LSS
       - MAI
-      - PSC
-      - RGS
+      - PSC1
+      - PSC2
+      - RGS1
+      - RGS2
       - ROH
       - RTS
       - SBH
-      - SOG
+      - SOG1
+      - SOG2
       - SPA
       - SWI
       - WER
