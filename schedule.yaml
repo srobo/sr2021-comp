@@ -29,31 +29,31 @@ match_periods:
   - start_time: 2021-01-16 15:10:00+01:00
     end_time: 2021-01-16 16:00:00+01:00
     max_end_time: 2021-01-16 16:10:00+01:00
-    description: League 1
+    description: League 1 (January)
 
 #
   - start_time: 2021-02-06 15:10:00+01:00
     end_time: 2021-02-06 16:00:00+01:00
     max_end_time: 2021-02-06 16:10:00+01:00
-    description: League 2
+    description: League 2 (February)
 
 #
   - start_time: 2021-03-20 15:10:00+01:00
     end_time: 2021-03-20 16:20:00+01:00
     max_end_time: 2021-03-20 16:40:00+01:00
-    description: League 3
+    description: League 3 (March)
 
 #
   - start_time: 2021-04-24 15:10:00+01:00
     end_time: 2021-04-24 16:20:00+01:00
     max_end_time: 2021-04-24 16:40:00+01:00
-    description: League 4
+    description: League 4 (April)
 
 #
   knockout:
   - start_time: 2021-05-01 15:10:00+01:00
     end_time: 2021-05-01 16:10:00+01:00
-    description: Knockouts
+    description: Knockouts (May)
 
 # Scheduled time for the finals tie-breaker, if any
 # This is an absolute value and ignores the delay values
