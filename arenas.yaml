@@ -4,10 +4,6 @@ arenas:
 
 corners:
   0:
-    colour: '#00ff00'
-  1:
-    colour: '#ff6600'
-  2:
     colour: '#ff00ff'
-  3:
+  1:
     colour: '#ffff00'
