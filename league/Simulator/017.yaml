@@ -1,0 +1,39 @@
+{
+    "match_number": 17,
+    "arena_id": "Simulator",
+    "teams": {
+        "SRZ": {
+            "zone": 0
+        },
+        "BPV": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 7.376
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 21.408
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 21.592
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 34.576
+                }
+            ]
+        }
+    }
+}
