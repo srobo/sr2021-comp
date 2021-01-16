@@ -1,0 +1,94 @@
+{
+    "match_number": 14,
+    "arena_id": "Simulator",
+    "teams": {
+        "SOG2": {
+            "zone": 0
+        },
+        "HRS3": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 4.2
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 6.152
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 12.344
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 14.472
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 19.080000000000002
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BE",
+                    "time": 22.888
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PO",
+                    "time": 26.128
+                },
+                {
+                    "zone": 1,
+                    "station_code": "EY",
+                    "time": 29.336000000000002
+                },
+                {
+                    "zone": 0,
+                    "station_code": "YL",
+                    "time": 32.76
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PN",
+                    "time": 36.952
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 62.88
+                },
+                {
+                    "zone": 1,
+                    "station_code": "VB",
+                    "time": 78.304
+                },
+                {
+                    "zone": 1,
+                    "station_code": "TS",
+                    "time": 92.432
+                },
+                {
+                    "zone": 1,
+                    "station_code": "OX",
+                    "time": 102.072
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BG",
+                    "time": 108.83200000000001
+                }
+            ]
+        }
+    }
+}
