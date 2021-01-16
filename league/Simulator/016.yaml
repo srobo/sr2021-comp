@@ -1,0 +1,74 @@
+{
+    "match_number": 16,
+    "arena_id": "Simulator",
+    "teams": {
+        "KEV": {
+            "zone": 0
+        },
+        "HRS1": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 3.472
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 7.344
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BE",
+                    "time": 11.528
+                },
+                {
+                    "zone": 1,
+                    "station_code": "EY",
+                    "time": 15.4
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PN",
+                    "time": 19.064
+                },
+                {
+                    "zone": 1,
+                    "station_code": "VB",
+                    "time": 29.664
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SZ",
+                    "time": 34.888
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BN",
+                    "time": 44.528
+                },
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 55.4
+                },
+                {
+                    "zone": 1,
+                    "station_code": "TS",
+                    "time": 83.104
+                },
+                {
+                    "zone": 1,
+                    "station_code": "OX",
+                    "time": 103.928
+                }
+            ]
+        }
+    }
+}
