@@ -71,3 +71,7 @@ matches:
     Simulator: [BPV, ELC]
   35:
     Simulator: [MAI, SOG2]
+
+  # Convince SRComp not to compute the finals.
+  36:
+    Simulator: [null, null]
