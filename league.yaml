@@ -1,1 +1,73 @@
-matches: {}
+matches:
+  0:
+    Simulator: [BPV, CLY1]
+  1:
+    Simulator: [ELC, HRS1]
+  2:
+    Simulator: [HRS2, HRS3]
+  3:
+    Simulator: [HRS4, HWM1]
+  4:
+    Simulator: [KEG, KEV]
+  5:
+    Simulator: [LSS, MAI]
+  6:
+    Simulator: [SOG1, SOG2]
+  7:
+    Simulator: [SPA, SRZ]
+  8:
+    Simulator: [WER, WGS]
+  9:
+    Simulator: [HRS4, MAI]
+  10:
+    Simulator: [SOG1, HRS2]
+  11:
+    Simulator: [LSS, HWM1]
+  12:
+    Simulator: [WGS, CLY1]
+  13:
+    Simulator: [SPA, WER]
+  14:
+    Simulator: [SOG2, HRS3]
+  15:
+    Simulator: [ELC, KEG]
+  16:
+    Simulator: [KEV, HRS1]
+  17:
+    Simulator: [SRZ, BPV]
+  18:
+    Simulator: [HRS3, LSS]
+  19:
+    Simulator: [MAI, SOG1]
+  20:
+    Simulator: [KEG, HRS4]
+  21:
+    Simulator: [CLY1, SPA]
+  22:
+    Simulator: [HRS1, BPV]
+  23:
+    Simulator: [WER, ELC]
+  24:
+    Simulator: [SRZ, WGS]
+  25:
+    Simulator: [HWM1, KEV]
+  26:
+    Simulator: [SOG2, HRS2]
+  27:
+    Simulator: [CLY1, SRZ]
+  28:
+    Simulator: [HRS1, WER]
+  29:
+    Simulator: [WGS, SPA]
+  30:
+    Simulator: [HRS2, LSS]
+  31:
+    Simulator: [HRS3, SOG1]
+  32:
+    Simulator: [HWM1, KEG]
+  33:
+    Simulator: [KEV, HRS4]
+  34:
+    Simulator: [BPV, ELC]
+  35:
+    Simulator: [MAI, SOG2]

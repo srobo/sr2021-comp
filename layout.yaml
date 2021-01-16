@@ -3,34 +3,20 @@ teams:
     display_name: The Venue
     teams:
       - BPV
-      - BRK
       - CLY1
-      - CLY2
-      - DCG
       - ELC
-      - HAB1
-      - HAB2
       - HRS1
       - HRS2
       - HRS3
       - HRS4
       - HWM1
-      - HWM2
-      - HWM3
       - KEG
       - KEV
       - LSS
       - MAI
-      - PSC1
-      - PSC2
-      - RGS1
-      - RGS2
-      - ROH
-      - RTS
-      - SBH
       - SOG1
       - SOG2
       - SPA
-      - SWI
+      - SRZ
       - WER
       - WGS
