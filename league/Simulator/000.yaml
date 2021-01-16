@@ -1,0 +1,29 @@
+{
+    "match_number": 0,
+    "arena_id": "Simulator",
+    "teams": {
+        "BPV": {
+            "zone": 0
+        },
+        "CLY1": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 8.968
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 32.784
+                }
+            ]
+        }
+    }
+}
