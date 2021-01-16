@@ -1,0 +1,24 @@
+{
+    "match_number": 5,
+    "arena_id": "Simulator",
+    "teams": {
+        "LSS": {
+            "zone": 0
+        },
+        "MAI": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 3.8160000000000003
+                }
+            ]
+        }
+    }
+}
