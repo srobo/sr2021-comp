@@ -22,7 +22,9 @@ staging:
 #
 timezone: Europe/London
 #
-delays: []
+delays:
+- delay: 300
+  time: 2021-01-16 12:10:00+00:00
 #
 match_periods:
   league:
