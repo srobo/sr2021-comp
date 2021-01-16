@@ -73,12 +73,13 @@ league:
     duration: 600       # seconds
 #
 knockout:
-  round_spacing: 300 # Delay between knockout rounds
-  final_delay: 300   # Extra delay before the finals
+  static: true
 #
-# Everyone goes through to the knockouts (arity = ?)
-#
-  single_arena:
-    rounds: 5        # We only have one arena, so this is all the rounds
-    arenas:
-    - Simulator
+static_knockout:
+  teams_per_arena: 2
+  matches:
+    0:
+      0:
+        arena: Simulator
+        start_time: 2021-05-01 15:49:30+01:00
+        teams: [S1, S2]
