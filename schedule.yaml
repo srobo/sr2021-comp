@@ -1,8 +1,8 @@
 match_slot_lengths:
-  pre: 60
+  pre: 30
   match: 120
   post: 30
-  total: 210
+  total: 180
 #
 # Various staging related times, in seconds before the actual match start
 staging:
@@ -22,34 +22,36 @@ staging:
 #
 timezone: Europe/London
 #
-delays: []
+delays:
+- delay: 300
+  time: 2021-01-16 12:10:00+00:00
 #
 match_periods:
   league:
-  - start_time: 2021-01-16 15:10:00+01:00
-    end_time: 2021-01-16 16:00:00+01:00
-    max_end_time: 2021-01-16 16:10:00+01:00
+  - start_time: 2021-01-16 12:10:00+00:00
+    end_time: 2021-01-16 14:16:00+00:00
+    max_end_time: 2021-01-16 14:30:00+00:00
     description: League 1 (January)
 
-#
+    #
   - start_time: 2021-02-06 15:10:00+01:00
     end_time: 2021-02-06 16:00:00+01:00
     max_end_time: 2021-02-06 16:10:00+01:00
     description: League 2 (February)
 
-#
+    #
   - start_time: 2021-03-20 15:10:00+01:00
     end_time: 2021-03-20 16:20:00+01:00
     max_end_time: 2021-03-20 16:40:00+01:00
     description: League 3 (March)
 
-#
+    #
   - start_time: 2021-04-24 15:10:00+01:00
     end_time: 2021-04-24 16:20:00+01:00
     max_end_time: 2021-04-24 16:40:00+01:00
     description: League 4 (April)
 
-#
+  #
   knockout:
   - start_time: 2021-05-01 15:10:00+01:00
     end_time: 2021-05-01 16:10:00+01:00
@@ -63,14 +65,7 @@ league:
   # Extra spacing before an arbitrary set of matches
   # This value is ignored for matches which occur at the start of a period
   # since no additional time is needed there.
-  extra_spacing:
-    # TODO: update these spacings for SR2021
-    # Ensure that each of these matches is at the start of a period
-  - match_numbers: 12,24,36
-    duration: 3600       # seconds
-    # Half time break to discuss physical robots
-  - match_numbers: 33,42
-    duration: 600       # seconds
+  extra_spacing: []
 #
 knockout:
   static: true
