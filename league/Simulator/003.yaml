@@ -1,0 +1,54 @@
+{
+    "match_number": 3,
+    "arena_id": "Simulator",
+    "teams": {
+        "HRS4": {
+            "zone": 0
+        },
+        "HWM1": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 4.76
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 9.664
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 12.944
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 17.568
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PO",
+                    "time": 22.608
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 24.296
+                },
+                {
+                    "zone": 0,
+                    "station_code": "YL",
+                    "time": 27.536
+                }
+            ]
+        }
+    }
+}
