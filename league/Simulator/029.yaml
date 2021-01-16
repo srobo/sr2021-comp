@@ -1,0 +1,59 @@
+{
+    "match_number": 29,
+    "arena_id": "Simulator",
+    "teams": {
+        "WGS": {
+            "zone": 0
+        },
+        "SPA": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 8.704
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 19.624
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 30.152
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PO",
+                    "time": 44.536
+                },
+                {
+                    "zone": 0,
+                    "station_code": "YL",
+                    "time": 58.128
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 82.024
+                },
+                {
+                    "zone": 0,
+                    "station_code": "YL",
+                    "time": 91.128
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 113.352
+                }
+            ]
+        }
+    }
+}
