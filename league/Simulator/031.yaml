@@ -1,0 +1,79 @@
+{
+    "match_number": 31,
+    "arena_id": "Simulator",
+    "teams": {
+        "HRS3": {
+            "zone": 0
+        },
+        "SOG1": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 8.968
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 13.888
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 21.248
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 26.128
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PO",
+                    "time": 32.008
+                },
+                {
+                    "zone": 0,
+                    "station_code": "YL",
+                    "time": 37.464
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 69.872
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 77.016
+                },
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 83.32000000000001
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 88.096
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 107.48
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SW",
+                    "time": 113.936
+                }
+            ]
+        }
+    }
+}
