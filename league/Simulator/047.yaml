@@ -1,0 +1,79 @@
+{
+    "match_number": 47,
+    "arena_id": "Simulator",
+    "teams": {
+        "HRS1": {
+            "zone": 0
+        },
+        "HWM1": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 3.928
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 7.696
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 12.944
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 14.488
+                },
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 18.176000000000002
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 22.104
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 25.856
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 29.176000000000002
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 35.008
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 81.84
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PO",
+                    "time": 87.504
+                },
+                {
+                    "zone": 0,
+                    "station_code": "YL",
+                    "time": 92.512
+                }
+            ]
+        }
+    }
+}
