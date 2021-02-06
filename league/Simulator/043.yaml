@@ -1,0 +1,39 @@
+{
+    "match_number": 43,
+    "arena_id": "Simulator",
+    "teams": {
+        "SPA": {
+            "zone": 0
+        },
+        "KEV": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 4.424
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 12.656
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 25.656
+                },
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 42.832
+                }
+            ]
+        }
+    }
+}
