@@ -34,15 +34,15 @@ match_periods:
     description: League 1 (January)
 
     #
-  - start_time: 2021-02-06 12:10:00+01:00
-    end_time: 2021-02-06 13:55:00+01:00
-    max_end_time: 2021-02-06 14:10:00+01:00
+  - start_time: 2021-02-06 12:10:00+00:00
+    end_time: 2021-02-06 13:55:00+00:00
+    max_end_time: 2021-02-06 14:10:00+00:00
     description: League 2 (February)
 
     #
-  - start_time: 2021-03-20 15:10:00+01:00
-    end_time: 2021-03-20 16:20:00+01:00
-    max_end_time: 2021-03-20 16:40:00+01:00
+  - start_time: 2021-03-20 15:10:00+00:00
+    end_time: 2021-03-20 16:20:00+00:00
+    max_end_time: 2021-03-20 16:40:00+00:00
     description: League 3 (March)
 
     #
