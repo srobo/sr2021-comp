@@ -1,0 +1,39 @@
+{
+    "match_number": 62,
+    "arena_id": "Simulator",
+    "teams": {
+        "SOG1": {
+            "zone": 0
+        },
+        "BPV": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 5.5760000000000005
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 7.704
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 9.584
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 15.208
+                }
+            ]
+        }
+    }
+}
