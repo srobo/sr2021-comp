@@ -1,0 +1,74 @@
+{
+    "match_number": 56,
+    "arena_id": "Simulator",
+    "teams": {
+        "MCK": {
+            "zone": 0
+        },
+        "SOG2": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 4.952
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 5.464
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 10.408
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 13.608
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 16.448
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 25.92
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SW",
+                    "time": 32.504
+                },
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 33.456
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BN",
+                    "time": 64.992
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SW",
+                    "time": 80.36
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SW",
+                    "time": 108.84
+                }
+            ]
+        }
+    }
+}
