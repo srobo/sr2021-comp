@@ -1,0 +1,44 @@
+{
+    "match_number": 61,
+    "arena_id": "Simulator",
+    "teams": {
+        "HWM1": {
+            "zone": 0
+        },
+        "ELC": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 6.672
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 8.472
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BN",
+                    "time": 22.8
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SW",
+                    "time": 36.912
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SZ",
+                    "time": 49.152
+                }
+            ]
+        }
+    }
+}
