@@ -1,0 +1,44 @@
+{
+    "match_number": 36,
+    "arena_id": "Simulator",
+    "teams": {
+        "TKC": {
+            "zone": 0
+        },
+        "CLY1": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 5.976
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 12.52
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 22.856
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 29.896
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SW",
+                    "time": 37.864000000000004
+                }
+            ]
+        }
+    }
+}
