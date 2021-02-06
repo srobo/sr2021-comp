@@ -1,0 +1,89 @@
+{
+    "match_number": 42,
+    "arena_id": "Simulator",
+    "teams": {
+        "HRS4": {
+            "zone": 0
+        },
+        "SOG1": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 3.8000000000000003
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 8.328
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 11.088000000000001
+                },
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 15.872
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 17.080000000000002
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 24.384
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 36.76
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 47.776
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 61.008
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SW",
+                    "time": 68.728
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BN",
+                    "time": 74.504
+                },
+                {
+                    "zone": 0,
+                    "station_code": "HV",
+                    "time": 79.992
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PO",
+                    "time": 101.32000000000001
+                },
+                {
+                    "zone": 0,
+                    "station_code": "YL",
+                    "time": 107.32000000000001
+                }
+            ]
+        }
+    }
+}
