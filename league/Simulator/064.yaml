@@ -1,0 +1,94 @@
+{
+    "match_number": 64,
+    "arena_id": "Simulator",
+    "teams": {
+        "WER": {
+            "zone": 0
+        },
+        "HRS3": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 3.688
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 7.36
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 14.568
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 14.568
+                },
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 18.448
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 20.416
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 23.472
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 28.080000000000002
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 36.112
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SW",
+                    "time": 41.648
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BN",
+                    "time": 46.048
+                },
+                {
+                    "zone": 0,
+                    "station_code": "HV",
+                    "time": 62.216
+                },
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 101.328
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BN",
+                    "time": 111.32000000000001
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SW",
+                    "time": 116.0
+                }
+            ]
+        }
+    }
+}
