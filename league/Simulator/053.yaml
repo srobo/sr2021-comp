@@ -1,0 +1,44 @@
+{
+    "match_number": 53,
+    "arena_id": "Simulator",
+    "teams": {
+        "KEV": {
+            "zone": 0
+        },
+        "TKC": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 1,
+                    "station_code": "SW",
+                    "time": 8.912
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SZ",
+                    "time": 20.848
+                },
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 66.656
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BN",
+                    "time": 72.648
+                },
+                {
+                    "zone": 1,
+                    "station_code": "VB",
+                    "time": 89.432
+                }
+            ]
+        }
+    }
+}
