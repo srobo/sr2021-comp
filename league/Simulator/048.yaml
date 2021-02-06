@@ -1,0 +1,34 @@
+{
+    "match_number": 48,
+    "arena_id": "Simulator",
+    "teams": {
+        "YSH": {
+            "zone": 0
+        },
+        "CLY1": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 3.584
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 8.392
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 20.408
+                }
+            ]
+        }
+    }
+}
