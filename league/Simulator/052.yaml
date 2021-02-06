@@ -1,0 +1,54 @@
+{
+    "match_number": 52,
+    "arena_id": "Simulator",
+    "teams": {
+        "ELC": {
+            "zone": 0
+        },
+        "WER": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 3.48
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 7.464
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 10.0
+                },
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 21.2
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 33.336
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 44.744
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 55.84
+                }
+            ]
+        }
+    }
+}
