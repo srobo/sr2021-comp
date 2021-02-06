@@ -1,0 +1,79 @@
+{
+    "match_number": 38,
+    "arena_id": "Simulator",
+    "teams": {
+        "BPV": {
+            "zone": 0
+        },
+        "KEG": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 4.016
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 6.008
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 10.016
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 16.048000000000002
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 20.016000000000002
+                },
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 24.52
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 30.144000000000002
+                },
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 65.432
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BN",
+                    "time": 74.08
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SW",
+                    "time": 81.208
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SZ",
+                    "time": 87.672
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BE",
+                    "time": 119.312
+                }
+            ]
+        }
+    }
+}
