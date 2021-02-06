@@ -35,6 +35,9 @@ teams:
     MAI:
         name: Gymnasium Markt Indersdorf
         rookie: No
+    MCK:
+        name: The Malay College Kuala Kangsar
+        rookie: Yes
     SOG1:
         name: Saint Olaves Grammar School (Team 1)
         rookie: Yes
@@ -43,6 +46,9 @@ teams:
         rookie: Yes
     SPA:
         name: St Paul’s College
+        rookie: Yes
+    TKC:
+        name: Kolej Tunku Kurshiah
         rookie: Yes
     SRZ:
         name: Student Robotics House Robot
@@ -53,3 +59,6 @@ teams:
     WGS:
         name: Wisbech Grammar School
         rookie: No
+    YSH:
+        name: Yayasan Sultan Haji Hassanal Bolkiah
+        rookie: Yes

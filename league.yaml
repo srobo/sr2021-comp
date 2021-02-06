@@ -72,6 +72,80 @@ matches:
   35:
     Simulator: [MAI, SOG2]
 
-  # Convince SRComp not to compute the finals.
+  # league 2
   36:
+    Simulator: [BPV, CLY1]
+  37:
+    Simulator: [ELC, HRS1]
+  38:
+    Simulator: [HRS2, HRS3]
+  39:
+    Simulator: [HRS4, HWM1]
+  40:
+    Simulator: [KEG, KEV]
+  41:
+    Simulator: [MAI, MCK]
+  42:
+    Simulator: [SOG1, SOG2]
+  43:
+    Simulator: [SPA, TKC]
+  44:
+    Simulator: [WGS, YSH]
+  45:
+    Simulator: [HRS4, MCK]
+  46:
+    Simulator: [SOG1, HRS2]
+  47:
+    Simulator: [MAI, HWM1]
+  48:
+    Simulator: [YSH, CLY1]
+  49:
+    Simulator: [SPA, WGS]
+  50:
+    Simulator: [SOG2, HRS3]
+  51:
+    Simulator: [ELC, KEG]
+  52:
+    Simulator: [KEV, HRS1]
+  53:
+    Simulator: [TKC, BPV]
+  54:
+    Simulator: [HRS3, MAI]
+  55:
+    Simulator: [MCK, SOG1]
+  56:
+    Simulator: [KEG, HRS4]
+  57:
+    Simulator: [CLY1, SPA]
+  58:
+    Simulator: [HRS1, BPV]
+  59:
+    Simulator: [WGS, ELC]
+  60:
+    Simulator: [TKC, YSH]
+  61:
+    Simulator: [HWM1, KEV]
+  62:
+    Simulator: [SOG2, HRS2]
+  63:
+    Simulator: [CLY1, TKC]
+  64:
+    Simulator: [HRS1, WGS]
+  65:
+    Simulator: [YSH, SPA]
+  66:
+    Simulator: [HRS2, MAI]
+  67:
+    Simulator: [HRS3, SOG1]
+  68:
+    Simulator: [HWM1, KEG]
+  69:
+    Simulator: [KEV, HRS4]
+  70:
+    Simulator: [BPV, ELC]
+  71:
+    Simulator: [MCK, SOG2]
+
+  # Convince SRComp not to compute the finals.
+  72:
     Simulator: [null, null]
