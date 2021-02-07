@@ -2,10 +2,10 @@
 
 import argparse
 import datetime
+import sys
 from pathlib import Path
 
 from sr.comp.comp import SRComp
-from sr.comp.match_period import Match
 
 
 def format_time(delta: datetime.timedelta) -> str:
@@ -53,7 +53,6 @@ def main(args: argparse.Namespace) -> None:
 
     print("Note: also add the outtro/wrapup!", file=sys.stderr)
 
-import sys
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
