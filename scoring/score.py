@@ -64,8 +64,8 @@ class EndStateScorer(object):
 
     def calculate_scores(self):
         zone_to_territories = collections.defaultdict(list)
-        for territory in self._final_state:
-            zone_to_territories[self._final_state[territory]].append(territory)
+        for territory, zone in self._final_state.items():
+            zone_to_territories[zone].append(territory)
 
         return {
             tla: sum(
