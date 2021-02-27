@@ -12,6 +12,7 @@ sys.path.insert(0, str(ROOT))
 
 from score import EndStateScorer as Scorer
 
+
 class ScorerTests(unittest.TestCase):
     longMessage = True
 

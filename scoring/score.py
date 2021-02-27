@@ -80,7 +80,7 @@ class EndStateScorer(object):
 
 SCORERS = {
     'end_state': EndStateScorer,
-    'maximum_extent': MaximumExtentScorer
+    'maximum_extent': MaximumExtentScorer,
 }
 
 
