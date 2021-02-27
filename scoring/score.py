@@ -56,13 +56,15 @@ class EndStateScorer(object):
             for tla, info in teams_data.items()
         }
 
-        # Mapping from station_code -> owning zone
-        self._final_state = {
-            claim['station_code']: claim['zone']
-            for claim in arena_data['other']['territory_claims']
-        }
+        self._territory_claims = arena_data['other']['territory_claims']
 
     def calculate_scores(self):
+        # Mapping from station_code -> owning zone
+        final_state = {
+            claim['station_code']: claim['zone']
+            for claim in self._territory_claims
+        }
+
         zone_to_territories = collections.defaultdict(list)
         for territory, zone in self._final_state.items():
             zone_to_territories[zone].append(territory)
