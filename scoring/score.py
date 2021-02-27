@@ -86,7 +86,6 @@ SCORERS = {
 
 def Scorer(teams_data, arena_data):
     scorer = arena_data['other'].get('game_style', 'maximum_extent')
-    print(scorer)
     return SCORERS[scorer](teams_data, arena_data)
 
 
