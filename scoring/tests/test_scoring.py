@@ -72,7 +72,7 @@ class ScorerTests(unittest.TestCase):
 
     def test_two_claims_same_territory(self):
         self.assertScores({
-            'ABC': 2,
+            'ABC': 0,
             'DEF': 2,
         }, [
             {
@@ -89,7 +89,7 @@ class ScorerTests(unittest.TestCase):
 
     def test_two_concurrent_territories(self):
         self.assertScores({
-            'ABC': 4,
+            'ABC': 2,
             'DEF': 2,
         }, [
             {
@@ -135,7 +135,7 @@ class ScorerTests(unittest.TestCase):
         # But only one of them holds both at the same time
         self.assertScores({
             'ABC': 2,
-            'DEF': 4,
+            'DEF': 2,
         }, [
             {
                 'zone': 0,
