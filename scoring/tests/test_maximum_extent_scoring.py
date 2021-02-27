@@ -159,6 +159,69 @@ class ScorerTests(unittest.TestCase):
             }
         ])
 
+    def test_territory_becoming_unclaimed_after_it_was_claimed(self):
+        self.assertScores({
+            'ABC': 2,
+            'DEF': 2,
+        }, [
+            {
+                'zone': 0,
+                'station_code': 'PN',
+                'time': 4
+            },
+            {
+                'zone': 1,
+                'station_code': 'PN',
+                'time': 5
+            },
+            {
+                'zone': 0,
+                'station_code': 'PN',
+                'time': 6
+            },
+            {
+                'zone': -1,
+                'station_code': 'PN',
+                'time': 7
+            },
+        ])
+
+    def test_unclaimed_territory_with_others_claimed(self):
+        self.assertScores({
+            'ABC': 4,
+            'DEF': 2,
+        }, [
+            {
+                'zone': 0,
+                'station_code': 'PN',
+                'time': 4
+            },
+            {
+                'zone': 1,
+                'station_code': 'PN',
+                'time': 5
+            },
+            {
+                'zone': 0,
+                'station_code': 'PN',
+                'time': 6
+            },
+            {
+                'zone': 0,
+                'station_code': 'EY',
+                'time': 7
+            },
+            {
+                'zone': -1,
+                'station_code': 'PN',
+                'time': 8
+            },
+            {
+                'zone': 1,
+                'station_code': 'SZ',
+                'time': 9
+            },
+        ])
 
 if __name__ == '__main__':
     unittest.main()
