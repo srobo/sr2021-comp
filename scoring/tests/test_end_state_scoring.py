@@ -10,7 +10,7 @@ import sys
 ROOT = pathlib.Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 
-from score import Scorer
+from score import EndStateScorer as Scorer
 
 
 class ScorerTests(unittest.TestCase):
@@ -72,7 +72,7 @@ class ScorerTests(unittest.TestCase):
 
     def test_two_claims_same_territory(self):
         self.assertScores({
-            'ABC': 2,
+            'ABC': 0,
             'DEF': 2,
         }, [
             {
@@ -89,7 +89,7 @@ class ScorerTests(unittest.TestCase):
 
     def test_two_concurrent_territories(self):
         self.assertScores({
-            'ABC': 4,
+            'ABC': 2,
             'DEF': 2,
         }, [
             {
@@ -135,7 +135,7 @@ class ScorerTests(unittest.TestCase):
         # But only one of them holds both at the same time
         self.assertScores({
             'ABC': 2,
-            'DEF': 4,
+            'DEF': 2,
         }, [
             {
                 'zone': 0,
@@ -157,6 +157,70 @@ class ScorerTests(unittest.TestCase):
                 'station_code': 'EY',
                 'time': 7
             }
+        ])
+
+    def test_territory_becoming_unclaimed_after_it_was_claimed(self):
+        self.assertScores({
+            'ABC': 0,
+            'DEF': 0,
+        }, [
+            {
+                'zone': 0,
+                'station_code': 'PN',
+                'time': 4
+            },
+            {
+                'zone': 1,
+                'station_code': 'PN',
+                'time': 5
+            },
+            {
+                'zone': 0,
+                'station_code': 'PN',
+                'time': 6
+            },
+            {
+                'zone': -1,
+                'station_code': 'PN',
+                'time': 7
+            },
+        ])
+
+    def test_unclaimed_territory_with_others_claimed(self):
+        self.assertScores({
+            'ABC': 2,
+            'DEF': 2,
+        }, [
+            {
+                'zone': 0,
+                'station_code': 'PN',
+                'time': 4
+            },
+            {
+                'zone': 1,
+                'station_code': 'PN',
+                'time': 5
+            },
+            {
+                'zone': 0,
+                'station_code': 'PN',
+                'time': 6
+            },
+            {
+                'zone': 0,
+                'station_code': 'EY',
+                'time': 7
+            },
+            {
+                'zone': -1,
+                'station_code': 'PN',
+                'time': 8
+            },
+            {
+                'zone': 1,
+                'station_code': 'SZ',
+                'time': 9
+            },
         ])
 
 
