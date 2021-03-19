@@ -23,6 +23,7 @@ teams:
     HWM1:
         name: Harris Westminster Sixth Form (Team 1)
         rookie: Yes
+        dropped_out_after: 71
     KEG:
         name: KEGS Chelmsford
         rookie: No
@@ -32,6 +33,7 @@ teams:
     LSS:
         name: Lawrence Sheriff School
         rookie: No
+        dropped_out_after: 71
     MAI:
         name: Gymnasium Markt Indersdorf
         rookie: No
@@ -47,18 +49,23 @@ teams:
     SPA:
         name: St Paul's College
         rookie: Yes
+    SWI:
+        name: South Wilts Grammar School
+        rookie: No
     TKC:
         name: Kolej Tunku Kurshiah
         rookie: Yes
     SRZ:
         name: Student Robotics House Robot
         rookie: No
+        dropped_out_after: 71
     WER:
         name: We Robot
         rookie: Yes
     WGS:
         name: Wisbech Grammar School
         rookie: No
+        dropped_out_after: 71
     YSH:
         name: Yayasan Sultan Haji Hassanal Bolkiah
         rookie: Yes
