@@ -1,0 +1,75 @@
+{
+    "match_number": 104,
+    "arena_id": "Simulator",
+    "teams": {
+        "HRS1": {
+            "zone": 0
+        },
+        "TKC": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 6.112,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 6.744,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 9.776,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SW",
+                    "time": 10.472,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 13.728,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 15.752,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SZ",
+                    "time": 16.856,
+                    "locked": false
+                },
+                {
+                    "zone": -1,
+                    "station_code": "SZ",
+                    "time": 17.776,
+                    "locked": true
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
