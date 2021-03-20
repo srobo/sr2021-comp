@@ -1,0 +1,39 @@
+{
+    "match_number": 81,
+    "arena_id": "Simulator",
+    "teams": {
+        "KEV": {
+            "zone": 0
+        },
+        "SPA": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 9.272,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 14.088000000000001,
+                    "locked": false
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
