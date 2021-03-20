@@ -1,0 +1,81 @@
+{
+    "match_number": 101,
+    "arena_id": "Simulator",
+    "teams": {
+        "BPV": {
+            "zone": 0
+        },
+        "ELC": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 6.472,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 10.968,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 11.48,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BN",
+                    "time": 25.392,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 26.64,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 30.76,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SW",
+                    "time": 41.688,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SZ",
+                    "time": 54.800000000000004,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 104.184,
+                    "locked": false
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
