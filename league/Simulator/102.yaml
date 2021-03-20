@@ -1,0 +1,153 @@
+{
+    "match_number": 102,
+    "arena_id": "Simulator",
+    "teams": {
+        "MAI": {
+            "zone": 0
+        },
+        "WER": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 4.272,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 6.984,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 8.048,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 11.096,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 14.704,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 16.728,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 17.856,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 18.752,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BN",
+                    "time": 21.424,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 23.296,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SW",
+                    "time": 24.992,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 25.2,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 27.104,
+                    "locked": false
+                },
+                {
+                    "zone": -1,
+                    "station_code": "SZ",
+                    "time": 28.976,
+                    "locked": true
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 32.512,
+                    "locked": false
+                },
+                {
+                    "zone": -1,
+                    "station_code": "BE",
+                    "time": 35.04,
+                    "locked": true
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 38.064,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 42.352000000000004,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 46.624,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 63.848,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 67.88,
+                    "locked": false
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
