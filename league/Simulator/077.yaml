@@ -1,0 +1,141 @@
+{
+    "match_number": 77,
+    "arena_id": "Simulator",
+    "teams": {
+        "WER": {
+            "zone": 0
+        },
+        "SPA": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 4.264,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 8.248,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 9.384,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 15.216000000000001,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 17.536,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 21.104,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 26.648,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 32.192,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 37.736000000000004,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 43.488,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SW",
+                    "time": 47.056000000000004,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 49.064,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BN",
+                    "time": 53.120000000000005,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "HV",
+                    "time": 57.104,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 57.888,
+                    "locked": false
+                },
+                {
+                    "zone": -1,
+                    "station_code": "PO",
+                    "time": 65.688,
+                    "locked": true
+                },
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 101.928,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 103.952,
+                    "locked": false
+                },
+                {
+                    "zone": -1,
+                    "station_code": "HV",
+                    "time": 106.976,
+                    "locked": true
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
