@@ -1,0 +1,81 @@
+{
+    "match_number": 85,
+    "arena_id": "Simulator",
+    "teams": {
+        "ELC": {
+            "zone": 0
+        },
+        "SOG1": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 8.496,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 19.864,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 21.672,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 31.624000000000002,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 45.944,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 58.08,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 93.488,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SW",
+                    "time": 103.544,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BN",
+                    "time": 114.952,
+                    "locked": false
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
