@@ -1,0 +1,69 @@
+{
+    "match_number": 105,
+    "arena_id": "Simulator",
+    "teams": {
+        "CLY1": {
+            "zone": 0
+        },
+        "KEV": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 4.488,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 5.168,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 9.576,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 11.144,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 24.488,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 28.392,
+                    "locked": false
+                },
+                {
+                    "zone": -1,
+                    "station_code": "PO",
+                    "time": 35.296,
+                    "locked": true
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
