@@ -1,0 +1,141 @@
+{
+    "match_number": 87,
+    "arena_id": "Simulator",
+    "teams": {
+        "SOG2": {
+            "zone": 0
+        },
+        "TKC": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 5.152,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 6.816,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SW",
+                    "time": 10.424,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 13.984,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SZ",
+                    "time": 17.376,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "VB",
+                    "time": 25.296,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "VB",
+                    "time": 27.2,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "VB",
+                    "time": 29.104,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 35.032000000000004,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BE",
+                    "time": 35.88,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BE",
+                    "time": 37.784,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BE",
+                    "time": 39.688,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 45.016,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BN",
+                    "time": 53.64,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 55.784,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 65.696,
+                    "locked": false
+                },
+                {
+                    "zone": -1,
+                    "station_code": "VB",
+                    "time": 68.104,
+                    "locked": true
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 72.416,
+                    "locked": false
+                },
+                {
+                    "zone": -1,
+                    "station_code": "BE",
+                    "time": 81.096,
+                    "locked": true
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
