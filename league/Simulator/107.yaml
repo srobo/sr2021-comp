@@ -1,0 +1,141 @@
+{
+    "match_number": 107,
+    "arena_id": "Simulator",
+    "teams": {
+        "SPA": {
+            "zone": 0
+        },
+        "HRS3": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 4.32,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 7.232,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SW",
+                    "time": 10.464,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 13.072000000000001,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SZ",
+                    "time": 16.28,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "VB",
+                    "time": 23.544,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "VB",
+                    "time": 25.448,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "VB",
+                    "time": 27.352,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BE",
+                    "time": 34.368,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BE",
+                    "time": 36.272,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BE",
+                    "time": 38.176,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 49.28,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 58.112,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BN",
+                    "time": 61.56,
+                    "locked": false
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 66.688,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 71.712,
+                    "locked": false
+                },
+                {
+                    "zone": -1,
+                    "station_code": "PN",
+                    "time": 75.72800000000001,
+                    "locked": true
+                },
+                {
+                    "zone": -1,
+                    "station_code": "EY",
+                    "time": 75.72800000000001,
+                    "locked": false
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 77.624,
+                    "locked": false
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
