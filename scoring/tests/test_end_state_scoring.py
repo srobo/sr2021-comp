@@ -223,6 +223,30 @@ class ScorerTests(unittest.TestCase):
             },
         ])
 
+    def test_bronze_claim(self) -> None:
+        self.assertScores({
+            'ABC': 4,
+            'DEF': 0,
+        }, [
+            {
+                'zone': 0,
+                'station_code': 'HA',
+                'time': 3.14,
+            },
+        ])
+
+    def test_gold_claim(self) -> None:
+        self.assertScores({
+            'ABC': 8,
+            'DEF': 0,
+        }, [
+            {
+                'zone': 0,
+                'station_code': 'YT',
+                'time': 3.14,
+            },
+        ])
+
 
 if __name__ == '__main__':
     unittest.main()
