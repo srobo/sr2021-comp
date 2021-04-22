@@ -47,7 +47,7 @@ class MaximumExtentScorer(object):
             max_extents = self._determine_max_extents(max_extents)
 
         return {
-            tla: max_extents.get(zone, 0) * POINTS_PER_TERRITORY
+            tla: max_extents.get(zone, 0) * DEFAULT_POINTS_PER_TERRITORY
             for zone, tla in self._zone_to_tla.items()
         }
 
