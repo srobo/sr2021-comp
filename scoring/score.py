@@ -1,6 +1,13 @@
 import collections
 
-POINTS_PER_TERRITORY = 2
+DEFAULT_POINTS_PER_TERRITORY = 2
+EXTRA_VALUE_TERRITORIES = {
+    'TH': 4,
+    'FL': 4,
+    'SF': 4,
+    'HA': 4,
+    'YT': 8,
+}
 
 
 class MaximumExtentScorer(object):
@@ -71,7 +78,7 @@ class EndStateScorer(object):
 
         return {
             tla: sum(
-                POINTS_PER_TERRITORY
+                EXTRA_VALUE_TERRITORIES.get(territory, DEFAULT_POINTS_PER_TERRITORY)
                 for territory in zone_to_territories.get(zone, [])
             )
             for zone, tla in self._zone_to_tla.items()
