@@ -247,6 +247,38 @@ class ScorerTests(unittest.TestCase):
             },
         ])
 
+    def test_claim_territories_of_different_values(self) -> None:
+        self.assertScores({
+            'ABC': 14,
+            'DEF': 6,
+        }, [
+            {
+                'zone': 0,
+                'station_code': 'BG',
+                'time': 4,
+            },
+            {
+                'zone': 1,
+                'station_code': 'HV',
+                'time': 5,
+            },
+            {
+                'zone': 0,
+                'station_code': 'HA',
+                'time': 6,
+            },
+            {
+                'zone': 0,
+                'station_code': 'YT',
+                'time': 7,
+            },
+            {
+                'zone': 1,
+                'station_code': 'SF',
+                'time': 9,
+            },
+        ])
+
 
 if __name__ == '__main__':
     unittest.main()
