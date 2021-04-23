@@ -292,7 +292,3 @@ matches:
     Simulator: [TKC, HRS1]
   143:
     Simulator: [SOG2, YSH]
-
- # Convince SRComp not to compute the finals.
-  144:
-    Simulator: [null, null]
