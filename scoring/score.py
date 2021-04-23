@@ -1,6 +1,16 @@
 import collections
 
-POINTS_PER_TERRITORY = 2
+DEFAULT_POINTS_PER_TERRITORY = 2
+# In order to allow end-state scoring for matches prior to league 4,
+# where all territories have a consistent value,
+# these territories should not be present until league 4
+EXTRA_VALUE_TERRITORIES = {
+    'TH': 4,
+    'FL': 4,
+    'SF': 4,
+    'HA': 4,
+    'YT': 8,
+}
 
 
 class MaximumExtentScorer(object):
@@ -40,7 +50,7 @@ class MaximumExtentScorer(object):
             max_extents = self._determine_max_extents(max_extents)
 
         return {
-            tla: max_extents.get(zone, 0) * POINTS_PER_TERRITORY
+            tla: max_extents.get(zone, 0) * DEFAULT_POINTS_PER_TERRITORY
             for zone, tla in self._zone_to_tla.items()
         }
 
@@ -71,7 +81,7 @@ class EndStateScorer(object):
 
         return {
             tla: sum(
-                POINTS_PER_TERRITORY
+                EXTRA_VALUE_TERRITORIES.get(territory, DEFAULT_POINTS_PER_TERRITORY)
                 for territory in zone_to_territories.get(zone, [])
             )
             for zone, tla in self._zone_to_tla.items()
