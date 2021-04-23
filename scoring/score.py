@@ -1,6 +1,9 @@
 import collections
 
 DEFAULT_POINTS_PER_TERRITORY = 2
+# In order to allow end-state scoring for matches prior to league 4,
+# where all territories have a consistent value,
+# these territories should not be present until league 4
 EXTRA_VALUE_TERRITORIES = {
     'TH': 4,
     'FL': 4,
