@@ -23,13 +23,13 @@ teams:
     HWM1:
         name: Harris Westminster Sixth Form (Team 1)
         rookie: Yes
-        dropped_out_after: 71
     KEG:
         name: KEGS Chelmsford
         rookie: No
     KEV:
         name: King Edward VI School
         rookie: No
+        dropped_out_after: 107
     LSS:
         name: Lawrence Sheriff School
         rookie: No
@@ -43,6 +43,7 @@ teams:
     SOG1:
         name: Saint Olaves Grammar School (Team 1)
         rookie: Yes
+        dropped_out_after: 107
     SOG2:
         name: Saint Olaves Grammar School (Team 2)
         rookie: Yes
@@ -58,7 +59,6 @@ teams:
     SRZ:
         name: Student Robotics House Robot
         rookie: No
-        dropped_out_after: 71
     WER:
         name: We Robot
         rookie: Yes
