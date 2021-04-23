@@ -73,8 +73,89 @@ knockout:
 static_knockout:
   teams_per_arena: 2
   matches:
+    # This is a knockouts for 18 entrants. There are two play-in matches between
+    # the bottom four teams in order to reduce them to two teams followed by an
+    # ordinary single-elimination knockout of the 16 remaining teams. Pairings
+    # are arranged such that any increase in seeding gives an easier path to the
+    # final. Zones are arranged such that the top seed gets zone 0 in the final
+    # and that the expected winners (based on seeding performance) experiences
+    # alternating zones as they progress to the final.
     0:
       0:
         arena: Simulator
-        start_time: 2021-05-01 15:49:30+01:00
-        teams: [S1, S2]
+        start_time: 2021-05-01 12:10:00+01:00
+        display_name: Play-in
+        teams: [S17, S16]
+    1:
+      0:
+        arena: Simulator
+        start_time: 2021-05-01 12:13:30+01:00
+               #  , S15
+        teams: [S2, '000']
+      1:
+        arena: Simulator
+        start_time: 2021-05-01 12:17:00+01:00
+        teams: [S14, S3]
+      2:
+        arena: Simulator
+        start_time: 2021-05-01 12:20:30+01:00
+        teams: [S10, S7]
+      3:
+        arena: Simulator
+        start_time: 2021-05-01 12:24:00+01:00
+        teams: [S6, S11]
+      4:
+        arena: Simulator
+        start_time: 2021-05-01 12:27:30+01:00
+               # S16 ,
+        teams: ['010', S1]
+      5:
+        arena: Simulator
+        start_time: 2021-05-01 12:31:00+01:00
+        teams: [S8, S9]
+      6:
+        arena: Simulator
+        start_time: 2021-05-01 12:34:30+01:00
+        teams: [S4, S13]
+      7:
+        arena: Simulator
+        start_time: 2021-05-01 12:38:00+01:00
+        teams: [S12, S5]
+    2:
+      0:
+        arena: Simulator
+        start_time: 2021-05-01 12:45:00+01:00
+               # S7  ,  S2
+        teams: ['120', '100']
+      1:
+        arena: Simulator
+        start_time: 2021-05-01 12:48:30+01:00
+               # S3  ,  S6
+        teams: ['110', '130']
+      2:
+        arena: Simulator
+        start_time: 2021-05-01 12:52:00+01:00
+               # S1  ,  S8
+        teams: ['140', '150']
+      3:
+        arena: Simulator
+        start_time: 2021-05-01 12:55:30+01:00
+               # S5  ,  S4
+        teams: ['170', '160']
+    3:
+      0:
+        arena: Simulator
+        start_time: 2021-05-01 13:02:30+01:00
+               # S2  ,  S3
+        teams: ['200', '210']
+      1:
+        arena: Simulator
+        start_time: 2021-05-01 13:06:00+01:00
+               # S4  ,  S1
+        teams: ['220', '220']
+    4:
+      0:
+        arena: Simulator
+        start_time: 2021-05-01 13:13:00+01:00
+               # S1  ,  S2
+        teams: ['310', '300']
