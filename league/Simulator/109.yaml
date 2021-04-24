@@ -1,0 +1,82 @@
+{
+    "match_number": 109,
+    "arena_id": "Simulator",
+    "teams": {
+        "HRS1": {
+            "zone": 0
+        },
+        "MAI": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 1,
+                    "station_code": "BN",
+                    "time": 5.032
+                },
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 5.456
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SW",
+                    "time": 11.248000000000001
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 12.792
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SZ",
+                    "time": 16.056
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 17.416
+                },
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 21.048000000000002
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 24.512
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PL",
+                    "time": 33.784
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PL",
+                    "time": 34.224000000000004
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BE",
+                    "time": 39.032000000000004
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
