@@ -1,0 +1,67 @@
+{
+    "match_number": 129,
+    "arena_id": "Simulator",
+    "teams": {
+        "HRS3": {
+            "zone": 0
+        },
+        "SWI": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 1,
+                    "station_code": "BN",
+                    "time": 6.256
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SW",
+                    "time": 13.328
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SZ",
+                    "time": 20.584
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BE",
+                    "time": 36.504
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PL",
+                    "time": 41.712
+                },
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 72.376
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 95.952
+                },
+                {
+                    "zone": 1,
+                    "station_code": "PO",
+                    "time": 106.36
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
