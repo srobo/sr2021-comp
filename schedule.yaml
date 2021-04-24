@@ -124,37 +124,50 @@ static_knockout:
       0:
         arena: Simulator
         start_time: 2021-05-01 12:45:00+01:00
+        display_name: Quarter 1
                # S7  ,  S2
         teams: ['120', '100']
       1:
         arena: Simulator
         start_time: 2021-05-01 12:48:30+01:00
+        display_name: Quarter 2
                # S3  ,  S6
         teams: ['110', '130']
       2:
         arena: Simulator
         start_time: 2021-05-01 12:52:00+01:00
+        display_name: Quarter 3
                # S1  ,  S8
         teams: ['140', '150']
       3:
         arena: Simulator
         start_time: 2021-05-01 12:55:30+01:00
+        display_name: Quarter 4
                # S5  ,  S4
         teams: ['170', '160']
     3:
       0:
         arena: Simulator
         start_time: 2021-05-01 13:02:30+01:00
+        display_name: Semi 1
                # S2  ,  S3
         teams: ['200', '210']
       1:
         arena: Simulator
         start_time: 2021-05-01 13:06:00+01:00
+        display_name: Semi 2
                # S4  ,  S1
         teams: ['220', '220']
     4:
       0:
         arena: Simulator
         start_time: 2021-05-01 13:13:00+01:00
+        display_name: Third Place
+               # S3  ,  S4
+        teams: ['301', '311']
+    5:
+      0:
+        arena: Simulator
+        start_time: 2021-05-01 13:20:00+01:00
                # S1  ,  S2
         teams: ['310', '300']
