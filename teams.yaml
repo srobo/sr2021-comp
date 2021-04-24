@@ -59,6 +59,7 @@ teams:
     SRZ:
         name: Student Robotics House Robot
         rookie: No
+        dropped_out_after: 143
     WER:
         name: We Robot
         rookie: Yes
