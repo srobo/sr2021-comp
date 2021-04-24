@@ -1,0 +1,67 @@
+{
+    "match_number": 128,
+    "arena_id": "Simulator",
+    "teams": {
+        "CLY1": {
+            "zone": 0
+        },
+        "BPV": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 6.872
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 21.856
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 28.752
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PL",
+                    "time": 37.056
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 42.664
+                },
+                {
+                    "zone": 0,
+                    "station_code": "HA",
+                    "time": 47.744
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 87.072
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 95.008
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
