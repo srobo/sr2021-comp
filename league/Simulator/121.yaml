@@ -1,0 +1,77 @@
+{
+    "match_number": 121,
+    "arena_id": "Simulator",
+    "teams": {
+        "SWI": {
+            "zone": 0
+        },
+        "MCK": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 6.4
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BN",
+                    "time": 7.208
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SW",
+                    "time": 17.224
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SZ",
+                    "time": 22.888
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 31.696
+                },
+                {
+                    "zone": 1,
+                    "station_code": "HV",
+                    "time": 33.176
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 39.056
+                },
+                {
+                    "zone": 1,
+                    "station_code": "YL",
+                    "time": 39.416000000000004
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 47.416000000000004
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PL",
+                    "time": 53.528
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
