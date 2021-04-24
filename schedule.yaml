@@ -90,8 +90,7 @@ static_knockout:
       0:
         arena: Simulator
         start_time: 2021-05-01 12:13:30+01:00
-               #  , S15
-        teams: [S2, '000']
+        teams: [S2, S15]
       1:
         arena: Simulator
         start_time: 2021-05-01 12:17:00+01:00
@@ -108,7 +107,7 @@ static_knockout:
         arena: Simulator
         start_time: 2021-05-01 12:27:30+01:00
                # S16 ,
-        teams: ['010', S1]
+        teams: ['000', S1]
       5:
         arena: Simulator
         start_time: 2021-05-01 12:31:00+01:00
