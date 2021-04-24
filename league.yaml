@@ -72,7 +72,7 @@ matches:
   35:
     Simulator: [MAI, SOG2]
 
-    # league 2
+  # league 2
   36:
     Simulator: [TKC, CLY1]
   37:
@@ -145,7 +145,7 @@ matches:
     Simulator: [TKC, MAI]
   71:
     Simulator: [HRS2, SOG1]
-    # league 3
+  # league 3
   72:
     Simulator: [KEG, YSH]
   73:
@@ -219,7 +219,7 @@ matches:
   107:
     Simulator: [SPA, HRS3]
 
-    # league 4
+  # league 4
   108:
     Simulator: [TKC, HRS3]
   109:
