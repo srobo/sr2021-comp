@@ -74,7 +74,7 @@ static_knockout:
   teams_per_arena: 2
   matches:
     # This is a knockouts for 17 entrants. There are two play-in matches between
-    # the bottom four teams in order to reduce them to two teams followed by an
+    # the bottom two teams in order to reduce them to one team followed by an
     # ordinary single-elimination knockout of the 16 remaining teams. Pairings
     # are arranged such that any increase in seeding gives an easier path to the
     # final. Zones are arranged such that the top seed gets zone 0 in the final
