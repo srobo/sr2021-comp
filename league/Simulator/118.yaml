@@ -1,0 +1,77 @@
+{
+    "match_number": 118,
+    "arena_id": "Simulator",
+    "teams": {
+        "ELC": {
+            "zone": 0
+        },
+        "HRS4": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 1,
+                    "station_code": "BN",
+                    "time": 6.192
+                },
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 9.784
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SW",
+                    "time": 13.992
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 18.448
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SZ",
+                    "time": 18.792
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 28.464000000000002
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 36.608000000000004
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PL",
+                    "time": 44.648
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 58.096000000000004
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SZ",
+                    "time": 112.928
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
