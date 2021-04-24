@@ -1,0 +1,87 @@
+{
+    "match_number": 140,
+    "arena_id": "Simulator",
+    "teams": {
+        "SPA": {
+            "zone": 0
+        },
+        "CLY1": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 4.848
+                },
+                {
+                    "zone": 1,
+                    "station_code": "BN",
+                    "time": 5.808
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 11.384
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SW",
+                    "time": 14.144
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 15.176
+                },
+                {
+                    "zone": 1,
+                    "station_code": "SZ",
+                    "time": 20.976
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PL",
+                    "time": 21.472
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 24.632
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 28.632
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BN",
+                    "time": 38.32
+                },
+                {
+                    "zone": -1,
+                    "station_code": "SW",
+                    "time": 38.32
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SW",
+                    "time": 43.56
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
