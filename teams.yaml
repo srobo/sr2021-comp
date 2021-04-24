@@ -3,7 +3,7 @@ teams:
         name: Barton Peveril College
         rookie: No
     CLY1:
-        name: The College of Richard Collyer (Team 1)
+        name: The College of Richard Collyer
         rookie: No
     ELC:
         name: Eltham College
@@ -21,7 +21,7 @@ teams:
         name: Hills Road Sixth Form College (Team 4)
         rookie: No
     HWM1:
-        name: Harris Westminster Sixth Form (Team 1)
+        name: Harris Westminster Sixth Form
         rookie: Yes
     KEG:
         name: KEGS Chelmsford
