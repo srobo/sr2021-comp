@@ -19,7 +19,7 @@ def game_point_by_match(tla):
             yield num, 0
 
 
-def plot(final_match_num, tlas, highlight):
+def plot(final_match_num, tlas, highlight, output):
     if tlas is None:
         tlas = [team.tla for team in comp.teams.values()]
 
@@ -63,14 +63,15 @@ def plot(final_match_num, tlas, highlight):
     plt.legend([handles[idx] for idx in order],[labels[idx] for idx in order], loc=2)
     plt.xlabel("Matches")
     plt.ylabel("Game Points")
-    plt.show()
+    plt.savefig(output)
 
 if __name__ == "__main__":
     parser=argparse.ArgumentParser()
     parser.add_argument('--final_match_num', help='Exclude Teams not present at this match number', type=int, default=144)
     parser.add_argument('--teams', help='list of TLAs of teams to plot', nargs='+')
     parser.add_argument('--highlight', help='list of TLAs of teams to highlight in plot', nargs='+')
+    parser.add_argument('--output', required=True, help='Where to save the plot')
 
     args=parser.parse_args()
 
-    plot(args.final_match_num, args.teams, args.highlight)
+    plot(args.final_match_num, args.teams, args.highlight, args.output)
