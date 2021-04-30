@@ -1,9 +1,11 @@
-from sr.comp.comp import SRComp
-import matplotlib.pyplot as plt
+import argparse
+import sys
 from operator import itemgetter
-from colour import Color
+
+import matplotlib.pyplot as plt
 import numpy as np
-import argparse, sys
+from colour import Color
+from sr.comp.comp import SRComp
 
 comp = SRComp('.')
 
