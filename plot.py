@@ -30,7 +30,9 @@ def plot(final_match_num, tlas, highlight, output):
     if highlight is None:
         highlight = tlas
 
-    hues = np.linspace(0., 1., len(tlas))
+    # Add 1 to prevent overlap when only showing a small number of teams; due to
+    # the circular nature of colour wheels.
+    hues = np.linspace(0., 1., len(tlas) + 1)
     fig, ax = plt.subplots()
     fig.set_size_inches(*SIZE_INCHES)
     final_val_order = []
