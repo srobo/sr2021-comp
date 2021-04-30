@@ -58,9 +58,13 @@ def plot(final_match_num, tlas, highlight, output):
 
     final_val_order.sort()
     final_val_order.reverse()
-    order = [i for (_,i) in final_val_order]
+    order = [i for (_, i) in final_val_order]
     handles, labels = plt.gca().get_legend_handles_labels()
-    plt.legend([handles[idx] for idx in order],[labels[idx] for idx in order], loc=2)
+    plt.legend(
+        [handles[idx] for idx in order],
+        [labels[idx] for idx in order],
+        loc=2,
+    )
     plt.xlabel("Matches")
     plt.ylabel("Game Points")
     plt.savefig(output)
