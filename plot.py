@@ -30,12 +30,15 @@ def plot(final_match_num, tlas, highlight, output):
     fig, ax = plt.subplots()
     final_val_order = []
     i = 0
-    teams = [team for team in comp.teams.values() if team.tla in tlas]
+
+    teams = [
+        team
+        for team in comp.teams.values()
+        if team.tla in tlas
+        if team.is_still_around(final_match_num)
+    ]
 
     for team in teams:
-        if not team.is_still_around(final_match_num):
-            continue
-
         line_colour = Color(hsl=(hues[i], 1., 0.5))
         z_order = 10
         if team.tla not in highlight:
