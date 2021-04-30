@@ -12,7 +12,7 @@ from sr.comp.comp import SRComp
 comp = SRComp('.')
 
 def game_point_by_match(tla):
-    for (_,num), points in {**comp.scores.league.game_points, **comp.scores.knockout.game_points}.items():
+    for (_, num), points in {**comp.scores.league.game_points, **comp.scores.knockout.game_points}.items():
         if tla in points:
             yield num, points[tla]
         else:
@@ -66,12 +66,12 @@ def plot(final_match_num, tlas, highlight, output):
     plt.savefig(output)
 
 if __name__ == "__main__":
-    parser=argparse.ArgumentParser()
+    parser = argparse.ArgumentParser()
     parser.add_argument('--final_match_num', help='Exclude Teams not present at this match number', type=int, default=144)
     parser.add_argument('--teams', help='list of TLAs of teams to plot', nargs='+')
     parser.add_argument('--highlight', help='list of TLAs of teams to highlight in plot', nargs='+')
     parser.add_argument('--output', required=True, help='Where to save the plot')
 
-    args=parser.parse_args()
+    args = parser.parse_args()
 
     plot(args.final_match_num, args.teams, args.highlight, args.output)
