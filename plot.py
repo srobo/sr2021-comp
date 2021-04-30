@@ -14,6 +14,7 @@ SIZE_INCHES = (1920 / DPI, 1080 / DPI)
 
 comp = SRComp('.')
 
+
 def game_point_by_match(tla):
     for (_, num), points in {**comp.scores.league.game_points, **comp.scores.knockout.game_points}.items():
         if tla in points:
@@ -29,7 +30,7 @@ def plot(final_match_num, tlas, highlight, output):
     if highlight is None:
         highlight = tlas
 
-    hues = np.linspace(0.,1.,len(tlas))
+    hues = np.linspace(0., 1., len(tlas))
     fig, ax = plt.subplots()
     fig.set_size_inches(*SIZE_INCHES)
     final_val_order = []
@@ -51,7 +52,7 @@ def plot(final_match_num, tlas, highlight, output):
 
         score_list = sorted(game_point_by_match(team.tla))
 
-        score_only = [score for (_,score) in score_list]
+        score_only = [score for (_, score) in score_list]
 
         score_cum = 0
         score_cum_list = []
@@ -59,7 +60,12 @@ def plot(final_match_num, tlas, highlight, output):
             score_cum += score
             score_cum_list.append(score_cum)
 
-        ax.plot(score_cum_list, label=team.tla, color=line_colour.hex, zorder=z_order)
+        ax.plot(
+            score_cum_list,
+            label=team.tla,
+            color=line_colour.hex,
+            zorder=z_order,
+        )
         final_val_order.append((score_cum, i))
         i += 1
 
@@ -76,12 +82,30 @@ def plot(final_match_num, tlas, highlight, output):
     plt.ylabel("Game Points")
     plt.savefig(output)
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--final-match-num', help='Exclude Teams not present at this match number', type=int, default=144)
-    parser.add_argument('--teams', help='list of TLAs of teams to plot', nargs='+')
-    parser.add_argument('--highlight', help='list of TLAs of teams to highlight in plot', nargs='+')
-    parser.add_argument('--output', required=True, help='Where to save the plot')
+    parser.add_argument(
+        '--final-match-num',
+        help='Exclude Teams not present at this match number',
+        type=int,
+        default=144,
+    )
+    parser.add_argument(
+        '--teams',
+        help='list of TLAs of teams to plot',
+        nargs='+',
+    )
+    parser.add_argument(
+        '--highlight',
+        help='list of TLAs of teams to highlight in plot',
+        nargs='+',
+    )
+    parser.add_argument(
+        '--output',
+        required=True,
+        help='Where to save the plot',
+    )
 
     args = parser.parse_args()
 
