@@ -157,7 +157,7 @@ static_knockout:
         start_time: 2021-05-01 13:06:00+01:00
         display_name: Semi 2
                # S4  ,  S1
-        teams: ['220', '220']
+        teams: ['230', '220']
     4:
       0:
         arena: Simulator
