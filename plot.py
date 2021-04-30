@@ -9,6 +9,9 @@ import numpy as np
 from colour import Color
 from sr.comp.comp import SRComp
 
+DPI = 150
+SIZE_INCHES = (1920 / DPI, 1080 / DPI)
+
 comp = SRComp('.')
 
 def game_point_by_match(tla):
@@ -28,6 +31,7 @@ def plot(final_match_num, tlas, highlight, output):
 
     hues = np.linspace(0.,1.,len(tlas))
     fig, ax = plt.subplots()
+    fig.set_size_inches(*SIZE_INCHES)
     final_val_order = []
     i = 0
 
