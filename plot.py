@@ -67,7 +67,7 @@ def plot(final_match_num, tlas, highlight, output):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--final_match_num', help='Exclude Teams not present at this match number', type=int, default=144)
+    parser.add_argument('--final-match-num', help='Exclude Teams not present at this match number', type=int, default=144)
     parser.add_argument('--teams', help='list of TLAs of teams to plot', nargs='+')
     parser.add_argument('--highlight', help='list of TLAs of teams to highlight in plot', nargs='+')
     parser.add_argument('--output', required=True, help='Where to save the plot')
