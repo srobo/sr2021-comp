@@ -21,7 +21,7 @@ def game_point_by_match(tla):
 
 def plot(final_match_num, tlas, highlight, output):
     if tlas is None:
-        tlas = [team.tla for team in comp.teams.values()]
+        tlas = comp.teams.keys()
 
     if highlight is None:
         highlight = tlas
