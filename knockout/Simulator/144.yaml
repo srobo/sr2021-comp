@@ -1,0 +1,62 @@
+{
+    "match_number": 144,
+    "arena_id": "Simulator",
+    "teams": {
+        "SWI": {
+            "zone": 0
+        },
+        "HWM1": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 5.84
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 27.144000000000002
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 33.712
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 42.784
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PL",
+                    "time": 49.424
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 72.464
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 81.408
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
