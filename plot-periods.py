@@ -120,7 +120,6 @@ def plot(final_match_num, tlas, highlight, output):
         i += 1
 
     plt.legend(loc=2)
-    plt.xlabel("Period")
     plt.xticks(cols, [x.description for x in match_periods])
     plt.ylabel("Game Points")
     plt.savefig(output)
