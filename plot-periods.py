@@ -72,12 +72,17 @@ def plot(final_match_num, tlas, highlight, output):
     fig, ax = plt.subplots()
     fig.set_size_inches(*plot_utils.SIZE_INCHES)
 
-    teams_and_colours = plot_utils.get_teams_with_colours(
+    teams_and_hues = plot_utils.get_teams_with_hues(
         comp,
         final_match_num,
         tlas,
         highlight,
     )
+
+    teams_and_colours = [
+        (t, Color(hsl=(x, .85, 0.65)))
+        for t, x in teams_and_hues
+    ]
 
     match_periods = comp.schedule.match_periods[:-1]
 

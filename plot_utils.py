@@ -2,7 +2,6 @@ import itertools
 import math
 
 import numpy as np
-from colour import Color
 
 DPI = 150
 SIZE_INCHES = (1920 / DPI, 1080 / DPI)
@@ -37,17 +36,14 @@ def nth_steps(items):
     ))
 
 
-def get_teams_with_colours(comp, final_match_num, tlas, highlight):
+def get_teams_with_hues(comp, final_match_num, tlas, highlight):
     # Add 1 to prevent overlap when only showing a small number of teams; due to
     # the circular nature of colour wheels.
     hues = nth_steps(nth_steps(nth_steps(np.linspace(0., 1., len(comp.teams.keys()) + 1))))
-    colours = []
-
-    colours = [Color(hsl=(x, .85, 0.65)) for x in hues]
 
     return [
-        (team, colour)
-        for team, colour in zip(comp.teams.values(), colours)
+        (team, hue)
+        for team, hue in zip(comp.teams.values(), hues)
         if team.tla in tlas
         if team.is_still_around(final_match_num)
     ]

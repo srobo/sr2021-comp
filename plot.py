@@ -3,6 +3,7 @@
 import argparse
 
 import plot_utils
+from colour import Color
 import matplotlib.pyplot as plt
 from sr.comp.comp import SRComp
 
@@ -29,12 +30,17 @@ def plot(final_match_num, tlas, highlight, output):
     final_val_order = []
     i = 0
 
-    teams_and_colours = plot_utils.get_teams_with_colours(
+    teams_and_hues = plot_utils.get_teams_with_hues(
         comp,
         final_match_num,
         tlas,
         highlight,
     )
+
+    teams_and_colours = [
+        (t, Color(hsl=(x, 1., .5)))
+        for t, x in teams_and_hues
+    ]
 
     for idx, (team, colour) in enumerate(teams_and_colours):
         z_order = 10
