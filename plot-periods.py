@@ -87,10 +87,8 @@ def plot(final_match_num, tlas, highlight, output):
     cols = np.arange(len(match_periods))
 
     for idx, (team, colour) in enumerate(teams_and_colours, start=1):
-        z_order = 10
         if team.tla not in highlight:
             colour.luminance = 0.9
-            z_order = 0
 
         score_only = list(game_point_by_period(team.tla, match_periods))
 
@@ -106,7 +104,6 @@ def plot(final_match_num, tlas, highlight, output):
             width=width,
             label=team.tla,
             color=colour.hex,
-            zorder=z_order,
         )
 
     plt.legend(loc='upper left', bbox_to_anchor=(1.007, 1.013))
