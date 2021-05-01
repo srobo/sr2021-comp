@@ -119,7 +119,7 @@ def plot(final_match_num, tlas, highlight, output):
         )
         i += 1
 
-    plt.legend(loc=2)
+    plt.legend(loc='upper left', bbox_to_anchor=(1.007, 1.013))
     plt.xticks(cols, [x.description for x in match_periods])
     plt.ylabel("Game Points")
     plt.savefig(output)
