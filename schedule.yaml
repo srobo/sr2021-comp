@@ -150,26 +150,26 @@ static_knockout:
     3:
       0:
         arena: Simulator
-        start_time: 2021-05-01 13:02:30+01:00
+        start_time: 2021-05-01 13:11:30+01:00
         display_name: Semi 1
                # S2  ,  S3
         teams: ['200', '210']
       1:
         arena: Simulator
-        start_time: 2021-05-01 13:06:00+01:00
+        start_time: 2021-05-01 13:15:00+01:00
         display_name: Semi 2
                # S4  ,  S1
         teams: ['230', '220']
     4:
       0:
         arena: Simulator
-        start_time: 2021-05-01 13:13:00+01:00
+        start_time: 2021-05-01 13:22:00+01:00
         display_name: Third Place
                # S3  ,  S4
         teams: ['301', '311']
     5:
       0:
         arena: Simulator
-        start_time: 2021-05-01 13:20:00+01:00
+        start_time: 2021-05-01 13:30:00+01:00
                # S1  ,  S2
         teams: ['310', '300']
