@@ -1,0 +1,82 @@
+{
+    "match_number": 156,
+    "arena_id": "Simulator",
+    "teams": {
+        "KEG": {
+            "zone": 0
+        },
+        "CLY1": {
+            "zone": 1
+        }
+    },
+    "duration": 120,
+    "recording_config": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "quality": 100
+    },
+    "arena_zones": {
+        "other": {
+            "territory_claims": [
+                {
+                    "zone": 0,
+                    "station_code": "PN",
+                    "time": 9.4
+                },
+                {
+                    "zone": 0,
+                    "station_code": "EY",
+                    "time": 17.28
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BG",
+                    "time": 24.808
+                },
+                {
+                    "zone": 0,
+                    "station_code": "VB",
+                    "time": 31.88
+                },
+                {
+                    "zone": 0,
+                    "station_code": "OX",
+                    "time": 42.56
+                },
+                {
+                    "zone": 0,
+                    "station_code": "TS",
+                    "time": 52.368
+                },
+                {
+                    "zone": 0,
+                    "station_code": "PL",
+                    "time": 65.624
+                },
+                {
+                    "zone": 0,
+                    "station_code": "SZ",
+                    "time": 82.536
+                },
+                {
+                    "zone": 0,
+                    "station_code": "BE",
+                    "time": 87.816
+                },
+                {
+                    "zone": 0,
+                    "station_code": "HA",
+                    "time": 93.08800000000001
+                },
+                {
+                    "zone": 0,
+                    "station_code": "HV",
+                    "time": 104.104
+                }
+            ],
+            "game_style": "end_state"
+        }
+    }
+}
