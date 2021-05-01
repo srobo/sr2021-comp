@@ -14,36 +14,6 @@ import plot_utils
 comp = SRComp('.')
 
 
-def coprime(a, b):
-    return math.gcd(a, b) == 1
-
-
-def find_coprime(n):
-    for a in range(3, math.ceil(math.sqrt(n))):
-        if coprime(a, n):
-            return a
-
-    return 3
-
-
-def nth_steps(items):
-    """
-    >>> nth_steps('ABCDEFG')
-    ['A', 'F', 'D', 'B', 'G', 'E']
-    """
-    n = find_coprime(len(items))
-    return list(itertools.islice(
-        itertools.islice(
-            itertools.cycle(items),
-            None,
-            None,
-            n,
-        ),
-        len(items),
-    ))
-
-
-
 def game_point_by_period(tla, match_periods):
     for period in match_periods:
         total = 0
