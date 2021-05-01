@@ -92,15 +92,9 @@ def plot(final_match_num, tlas, highlight, output):
 
         score_only = list(game_point_by_period(team.tla, match_periods))
 
-        score_cum = 0
-        score_cum_list = []
-        for score in score_only:
-            score_cum += score
-            score_cum_list.append(score)
-
         ax.bar(
             cols + (idx - offset) * width,
-            score_cum_list,
+            score_only,
             width=width,
             label=team.tla,
             color=colour.hex,
