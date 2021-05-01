@@ -26,6 +26,8 @@ delays:
 - delay: 300
   time: 2021-01-16 12:10:00+00:00
 #
+- delay: 120
+  time: 2021-05-01 12:45:14+01:00
 match_periods:
   league:
   - start_time: 2021-01-16 12:10:00+00:00
