@@ -44,7 +44,7 @@ def plot(final_match_num, tlas, highlight, output):
     hues = np.linspace(0., 1., len(tlas) + 1)
     fig, ax = plt.subplots()
     fig.set_size_inches(*SIZE_INCHES)
-    final_val_order = []
+
     i = 0
 
     teams = [
@@ -84,18 +84,9 @@ def plot(final_match_num, tlas, highlight, output):
             color=line_colour.hex,
             zorder=z_order,
         )
-        final_val_order.append((score_cum, i))
         i += 1
 
-    final_val_order.sort()
-    final_val_order.reverse()
-    order = [i for (_, i) in final_val_order]
-    handles, labels = plt.gca().get_legend_handles_labels()
-    plt.legend(
-        [handles[idx] for idx in order],
-        [labels[idx] for idx in order],
-        loc=2,
-    )
+    plt.legend(loc=2)
     plt.xlabel("Period")
     plt.xticks(cols, [x.description for x in match_periods])
     plt.ylabel("Game Points")
