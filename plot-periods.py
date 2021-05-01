@@ -3,15 +3,13 @@
 import argparse
 import itertools
 import math
-import sys
-from operator import itemgetter
 
-import plot_utils
 import matplotlib.pyplot as plt
 import numpy as np
 from colour import Color
 from sr.comp.comp import SRComp
-from sr.comp.match_period import MatchType, Match
+
+import plot_utils
 
 comp = SRComp('.')
 

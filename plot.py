@@ -2,10 +2,11 @@
 
 import argparse
 
-import plot_utils
-from colour import Color
 import matplotlib.pyplot as plt
+from colour import Color
 from sr.comp.comp import SRComp
+
+import plot_utils
 
 comp = SRComp('.')
 
