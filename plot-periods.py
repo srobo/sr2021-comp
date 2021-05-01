@@ -89,7 +89,7 @@ def plot(final_match_num, tlas, highlight, output):
 
     match_periods = comp.schedule.match_periods[:-1]
 
-    n_cols = len(teams) + 1
+    n_cols = len(teams) + 3
     width = 1 / n_cols
     offset = n_cols / 2
     cols = np.arange(len(match_periods))
