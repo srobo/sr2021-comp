@@ -73,32 +73,30 @@ def plot(final_match_num, tlas, highlight, output):
 
     # Add 1 to prevent overlap when only showing a small number of teams; due to
     # the circular nature of colour wheels.
-    hues = nth_steps(nth_steps(nth_steps(np.linspace(0., 1., len(tlas) + 1))))
+    hues = nth_steps(nth_steps(nth_steps(np.linspace(0., 1., len(comp.teams.keys()) + 1))))
+    colours = [Color(hsl=(x, .85, 0.65)) for x in hues]
 
     fig, ax = plt.subplots()
     fig.set_size_inches(*SIZE_INCHES)
 
-    i = 0
-
-    teams = [
-        team
-        for team in comp.teams.values()
+    teams_and_colours = [
+        (team, colour)
+        for team, colour in zip(comp.teams.values(), colours)
         if team.tla in tlas
         if team.is_still_around(final_match_num)
     ]
 
     match_periods = comp.schedule.match_periods[:-1]
 
-    n_cols = len(teams) + 3
+    n_cols = len(teams_and_colours) + 3
     width = 1 / n_cols
     offset = n_cols / 2
     cols = np.arange(len(match_periods))
 
-    for idx, team in enumerate(teams, start=1):
-        line_colour = Color(hsl=(hues[i], .85, 0.65))
+    for idx, (team, colour) in enumerate(teams_and_colours, start=1):
         z_order = 10
         if team.tla not in highlight:
-            line_colour.luminance = 0.9
+            colour.luminance = 0.9
             z_order = 0
 
         score_only = list(game_point_by_period(team.tla, match_periods))
@@ -114,10 +112,9 @@ def plot(final_match_num, tlas, highlight, output):
             score_cum_list,
             width=width,
             label=team.tla,
-            color=line_colour.hex,
+            color=colour.hex,
             zorder=z_order,
         )
-        i += 1
 
     plt.legend(loc='upper left', bbox_to_anchor=(1.007, 1.013))
     plt.xticks(cols, [x.description for x in match_periods])
