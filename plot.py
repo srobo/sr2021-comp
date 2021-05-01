@@ -78,7 +78,7 @@ def plot(final_match_num, tlas, highlight, output):
     plt.legend(
         [handles[idx] for idx in order],
         [labels[idx] for idx in order],
-        loc=2,
+        loc='upper left',
     )
     plt.xlabel("Matches")
     plt.ylabel("Game Points")
