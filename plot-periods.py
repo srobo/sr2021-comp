@@ -6,14 +6,12 @@ import math
 import sys
 from operator import itemgetter
 
+import plot_utils
 import matplotlib.pyplot as plt
 import numpy as np
 from colour import Color
 from sr.comp.comp import SRComp
 from sr.comp.match_period import MatchType, Match
-
-DPI = 150
-SIZE_INCHES = (1920 / DPI, 1080 / DPI)
 
 comp = SRComp('.')
 
@@ -71,20 +69,15 @@ def plot(final_match_num, tlas, highlight, output):
     if highlight is None:
         highlight = tlas
 
-    # Add 1 to prevent overlap when only showing a small number of teams; due to
-    # the circular nature of colour wheels.
-    hues = nth_steps(nth_steps(nth_steps(np.linspace(0., 1., len(comp.teams.keys()) + 1))))
-    colours = [Color(hsl=(x, .85, 0.65)) for x in hues]
-
     fig, ax = plt.subplots()
-    fig.set_size_inches(*SIZE_INCHES)
+    fig.set_size_inches(*plot_utils.SIZE_INCHES)
 
-    teams_and_colours = [
-        (team, colour)
-        for team, colour in zip(comp.teams.values(), colours)
-        if team.tla in tlas
-        if team.is_still_around(final_match_num)
-    ]
+    teams_and_colours = plot_utils.get_teams_with_colours(
+        comp,
+        final_match_num,
+        tlas,
+        highlight,
+    )
 
     match_periods = comp.schedule.match_periods[:-1]
 
