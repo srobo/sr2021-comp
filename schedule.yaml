@@ -125,25 +125,25 @@ static_knockout:
     2:
       0:
         arena: Simulator
-        start_time: 2021-05-01 12:48:30+01:00
+        start_time: 2021-05-01 12:53:00+01:00
         display_name: Quarter 1
                # S7  ,  S2
         teams: ['120', '100']
       1:
         arena: Simulator
-        start_time: 2021-05-01 12:52:00+01:00
+        start_time: 2021-05-01 12:56:30+01:00
         display_name: Quarter 2
                # S3  ,  S6
         teams: ['110', '130']
       2:
         arena: Simulator
-        start_time: 2021-05-01 12:55:30+01:00
+        start_time: 2021-05-01 13:00:00+01:00
         display_name: Quarter 3
                # S1  ,  S8
         teams: ['140', '150']
       3:
         arena: Simulator
-        start_time: 2021-05-01 12:58:00+01:00
+        start_time: 2021-05-01 13:03:30+01:00
         display_name: Quarter 4
                # S5  ,  S4
         teams: ['170', '160']
