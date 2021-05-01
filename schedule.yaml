@@ -163,13 +163,13 @@ static_knockout:
     4:
       0:
         arena: Simulator
-        start_time: 2021-05-01 13:22:00+01:00
+        start_time: 2021-05-01 13:21:00+01:00
         display_name: Third Place
                # S3  ,  S4
         teams: ['301', '311']
     5:
       0:
         arena: Simulator
-        start_time: 2021-05-01 13:30:00+01:00
+        start_time: 2021-05-01 13:28:00+01:00
                # S1  ,  S2
         teams: ['310', '300']
