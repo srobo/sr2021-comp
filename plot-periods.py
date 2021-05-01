@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import argparse
+import itertools
+import math
 import sys
 from operator import itemgetter
 
@@ -14,6 +16,36 @@ DPI = 150
 SIZE_INCHES = (1920 / DPI, 1080 / DPI)
 
 comp = SRComp('.')
+
+
+def coprime(a, b):
+    return math.gcd(a, b) == 1
+
+
+def find_coprime(n):
+    for a in range(3, math.ceil(math.sqrt(n))):
+        if coprime(a, n):
+            return a
+
+    return 3
+
+
+def nth_steps(items):
+    """
+    >>> nth_steps('ABCDEFG')
+    ['A', 'F', 'D', 'B', 'G', 'E']
+    """
+    n = find_coprime(len(items))
+    return list(itertools.islice(
+        itertools.islice(
+            itertools.cycle(items),
+            None,
+            None,
+            n,
+        ),
+        len(items),
+    ))
+
 
 
 def game_point_by_period(tla, match_periods):
@@ -41,7 +73,8 @@ def plot(final_match_num, tlas, highlight, output):
 
     # Add 1 to prevent overlap when only showing a small number of teams; due to
     # the circular nature of colour wheels.
-    hues = np.linspace(0., 1., len(tlas) + 1)
+    hues = nth_steps(nth_steps(nth_steps(np.linspace(0., 1., len(tlas) + 1))))
+
     fig, ax = plt.subplots()
     fig.set_size_inches(*SIZE_INCHES)
 
@@ -62,7 +95,7 @@ def plot(final_match_num, tlas, highlight, output):
     cols = np.arange(len(match_periods))
 
     for idx, team in enumerate(teams, start=1):
-        line_colour = Color(hsl=(hues[i], 1., 0.5))
+        line_colour = Color(hsl=(hues[i], .85, 0.65))
         z_order = 10
         if team.tla not in highlight:
             line_colour.luminance = 0.9
